@@ -1,3 +1,5 @@
+const { Subject } = require("rxjs");
+
 const generatePage = (name, github) => {
     return `
   <!DOCTYPE html> 
